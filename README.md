@@ -1,13 +1,19 @@
-## Running the server
+## リアルタイム　リプライ　サービス
 
-2nd commit for test
+1人の主催者(HOST)から複数の参加者(GUEST)に問いかけ
+返答をリアルタイムで集計し、共有できるサービスです。
 
-arai branch
+#URL http://pingpong-dash.herokuapp.com/
 
-1) Open `server.js` and start the app by clicking on the "Run" button in the top menu.
+#使い方
 
-2) Alternatively you can launch the app from the Terminal:
+主催者が架空の部屋を作成し、
+参加者は作成された部屋の番号とご自身の名前を入力して入室します。
 
-    $ node server.js
+選択肢形式、テキスト形式で問いかけることができます。
+また、事前に設問文を作成してPC上に保存し、
+後から読み込んで設問文付きの問いかけをすることもできます。
 
-Once the server is running, open the project in the shape of 'https://projectname-username.c9.io/'. As you enter your name, watch the Users list (on the left) update. Once you press Enter or Send, the message is shared with all connected clients.
+入室している参加者から、
+リアルタイムにグラフやテキストで返答を得ることができ、
+その場で共有することができます。
